@@ -25,7 +25,7 @@
           >
             <g-link :to="'/post/' + post.id">
               <h2 class="post-title">
-                {{ epost.title }}
+                {{ post.title }}
               </h2>
               <!-- <h3 class="post-subtitle">
                 Problems look mighty small from 150 miles up
@@ -93,7 +93,6 @@
               >Older Posts &rarr;</a
             >
           </div> -->
-          <Pager :info="$page.posts.pageInfo" />
         </div>
       </div>
     </div>
